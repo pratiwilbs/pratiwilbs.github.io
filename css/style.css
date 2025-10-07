@@ -102,6 +102,16 @@ header {
   letter-spacing: 1px;
 }
 
+/* Tombol di Hero Section (Beranda) */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+
 .button {
   background-color: #1B3C53;
   color: #fff;
@@ -209,7 +219,6 @@ header {
   font-weight: bold;
 }
 
-/* Tombol lihat semua */
 .lihat-semua a {
   display: inline-block;
   background-color: #1B3C53;
@@ -418,6 +427,40 @@ header {
   color: #D97D55;
   font-size: 1.4rem;
   margin-bottom: 10px;
+}
+
+/* ---------------------------------
+   TOMBOL KEMBALI KE BERANDA
+--------------------------------- */
+.back-top {
+  text-align: left;
+  padding: 20px 50px;
+  background-color: #FFF0DD;
+}
+
+.button-back {
+  display: inline-block;
+  background-color: #D97D55;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.button-back:hover {
+  background-color: #1B3C53;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .back-top {
+    text-align: center;
+    padding: 15px 0;
+  }
 }
 
 /* ---------------------------------
